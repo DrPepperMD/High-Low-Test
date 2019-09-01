@@ -123,6 +123,7 @@ namespace high_low
 
         static void GameSinglePlayer()
         {
+            // everything blow here is über-bad
             Console.Clear();
 
             Console.Write("How Much Do You Want To Bet This Round?: ");
