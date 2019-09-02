@@ -35,10 +35,10 @@ namespace high_low
         {
             Console.Title = "High-Low Game";
 
-            Console.WriteLine("High-Low Game...");
-            Console.WriteLine("Press Any Key To Begin...");
+            Console.WriteLine("High-Low Game...\n");
+            Console.WriteLine("Please Choose A User Name: ");
 
-            Console.ReadKey();
+            Console.ReadLine();
             Console.Clear();
 
             Wager();
@@ -46,7 +46,7 @@ namespace high_low
 
         static void Wager()
         {
-            Console.WriteLine("select an amount to wager");
+            Console.WriteLine("Please Choose How Many Chips You Want...");
 
             Console.WriteLine("1 = 1000 chips - Very Hard");
 
