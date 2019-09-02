@@ -35,8 +35,8 @@ namespace high_low
         {
             Console.Title = "High-Low Game";
 
-            Console.WriteLine("High-Low card game minus the cards...   and fun");
-            Console.WriteLine("press any key to begin");
+            Console.WriteLine("High-Low Game...");
+            Console.WriteLine("Press Any Key To Begin...");
 
             Console.ReadKey();
             Console.Clear();
@@ -96,7 +96,7 @@ namespace high_low
         {
             Console.Clear();
             
-            Console.WriteLine("How Many Players do you want????!?!?!"); // as seen here; i am  slowy losing my sannity
+            Console.WriteLine("How Many Players Do You Want?");
 
             Console.WriteLine("S = SinglePlayer - Only You And The Dealer");
 
@@ -123,7 +123,6 @@ namespace high_low
 
         static void GameSinglePlayer()
         {
-            // everything blow here is über-bad
             Console.Clear();
 
             Console.Write("How Much Do You Want To Bet This Round?: ");
